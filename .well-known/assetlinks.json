@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.franyttt_art.trilingua",
+        "sha256_cert_fingerprints": ["CC:20:19:0C:78:6C:1A:F7:74:7F:73:C8:6B:86:00:59:5C:92:09:4C:23:BB:6A:0E:2C:C5:DE:69:F5:66:74:39"]
+      }
+    }]
