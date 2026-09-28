@@ -4,7 +4,8 @@
 <script>
 // Cualquier variante de la dirección (Trilingua, TRILINGUA…) lleva a la app.
 var p = location.pathname;
-if (/^\/trilingua/i.test(p)) location.replace("/trilingua/" + p.replace(/^\/trilingua\/?/i, "") + location.search + location.hash);
+if (/^\/forja/i.test(p)) location.replace("/forja/" + p.replace(/^\/forja\/?/i, "") + location.search + location.hash);
+else if (/^\/trilingua/i.test(p)) location.replace("/trilingua/" + p.replace(/^\/trilingua\/?/i, "") + location.search + location.hash);
 else location.replace("/trilingua/");
 </script>
 <style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0B0A1A;color:#F3F0FF;font:600 18px system-ui,sans-serif}a{color:#FF8A3D}</style>
